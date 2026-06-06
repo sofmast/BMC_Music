@@ -504,7 +504,7 @@ position:fixed;
 top:80px;
 left:-100%;
 width:100%;
-background:var(--bg-secondary);
+background:rgba(255, 255, 255, 0.925);
 flex-direction:column;
 padding:30px;
 transition:.4s;
@@ -517,5 +517,10 @@ left:0;
 .menu-btn{
 display:block;
 }
-
+.nav-links a{
+text-decoration:none;
+color:rgb(211, 55, 27);
+font-weight:500;
+transition:var(--transition);
+}
 }
